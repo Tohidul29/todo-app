@@ -1,8 +1,14 @@
 import React from 'react';
+import Banner from './Banner';
+import TodoList from './TodoList/TodoList';
+
 
 const Home = () => {
     return (
-        <h1>This is home</h1>
+        <div>
+            <Banner></Banner>
+            <TodoList></TodoList>
+        </div>
     );
 };
 

@@ -3,7 +3,7 @@ import { Spinner } from 'react-bootstrap';
 
 const Loading = () => {
     return (
-        <div className='mx-auto mt-3'>
+        <div className='text-center mt-3'>
             <Spinner animation="grow" variant="primary" />
             <Spinner animation="grow" variant="secondary" />
             <Spinner animation="grow" variant="success" />
